@@ -1,0 +1,81 @@
+@import 'style/media-queries';
+/* @import 'component/Resource/resource-xl' (--xl) and (--landscape); */
+
+/* EXTRA LARGE */
+@media (--xl) {
+}
+
+/* LARGE */
+@media (--lg) {
+  
+}
+
+/* MEDIUM */
+@media (--md) {
+
+}
+
+/* SMALL */
+@media (--sm) {
+
+}
+
+/* EXTRA SMALL */
+@media (--xs) {
+
+}
+
+@media (--landscape) {
+}
+
+@media (--square) {
+  div#battlefield {
+    section#main {
+      .aside.player-panel {
+
+      }
+      .tower {
+
+      }
+      .wall {
+
+      }
+      .badge-tower, .badge-wall {
+
+      }
+    }
+  }
+}
+
+@media (--portrait) {
+}
+
+/* @media (--md) and (--portrait) {
+  div#battlefield {
+    section#main {
+      height: 50%;
+      .badge-player {
+        position: absolute;
+        top: 8%;
+        width: 26%;
+        &.badge-1 { left: 6.9%; }
+        &.badge-2 { right: 6.9%; }
+      }
+      .resources {
+        width: 26%;
+        &-1 { 
+          flex-direction: row; 
+          transform: none;
+        }
+        &-2 { 
+          flex-direction: row; 
+          transform: none;
+        }
+      }
+    }
+    section#cards {
+      height: 50%;
+    }
+  }
+} */
+
